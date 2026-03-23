@@ -4,7 +4,7 @@ import java.util. ArrayList;
 
 public class Calculator {
     // 계산 결과들을 모아서 저장하는 리스트 (외부에서 직접 접근 불가)
-    private ArrayList<Integer> results = new ArrayList<>();
+    private final ArrayList<Integer> results = new ArrayList<>();
 
     // 두 숫자와 연산자를 받아서 계산하고 결과를 반환하는 메서드
     public int calculate(int num1, int num2, char op) {
@@ -38,8 +38,9 @@ public class Calculator {
     public ArrayList<Integer> getResults() {
         return results;
     }
-    // results 리스트에서 가장 먼저 저장된 값(인덱스 0)을 삭제하는 메서
+
+    // results 리스트에서 가장 먼저 저장된 값(인덱스 0)을 삭제하는 메서드
     public void removeResult() {
-        results.remove(0);
+        results.removeFirst();
     }
 }

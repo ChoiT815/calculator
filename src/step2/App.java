@@ -23,10 +23,15 @@ public class App {
             System.out.print("두 번째 숫자를 입력하세요: ");
             int num2 = scanner.nextInt();
 
-            // 사칙연산 기호 입력받기 (String으로 받은 후 char로 변환)
             System.out.print("사칙연산 기호를 입력하세요: ");
-            String op = scanner.next();
-            char opChar = op.charAt(0);  // 첫 번째 문자만 가져오기
+            char opChar = ' ';  // 첫 번째 문자만 가져오기
+            do {
+                opChar = scanner.next().charAt(0);
+                if (opChar != '+' && opChar != '-' && opChar != '*' && opChar != '/') {
+                    System.out.println("잘못된 연산자입니다. 다시 입력해주세요!");
+                    System.out.print("사칙연산 기호를 입력하세요: ");
+                }
+            } while (opChar != '+' && opChar != '-' && opChar != '*' && opChar != '/');
 
             // Calculator 클래스의 calculate 메서드로 계산 후 결과 저장
             int result = calculator.calculate(num1, num2, opChar);
@@ -38,7 +43,7 @@ public class App {
             System.out.print("더 계산하시겠습니까? (종료:exit, 삭제:delete) : ");
             String answer = scanner.next();
             if (answer.equals("exit")) {
-                break; // exit 입력 시 반복문 종료
+                break; // exit 입력 시 프로그램 종료
             } else if (answer.equals("delete")) {
                 calculator.removeResult();  // delete 입력 시 첫 번째 결과 삭제
             }
