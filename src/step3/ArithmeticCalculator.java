@@ -4,36 +4,6 @@ package step3;
 import java.util.ArrayList;
 import java.util.List;
 
-enum OperatorType {
-    ADD{
-        @Override
-        public double apply(double a, double b) {
-            return a + b;
-        }
-    }, SUB{
-        @Override
-        public double apply(double a, double b) { return a - b; }
-    }, MUL{
-        @Override
-        public double apply(double a, double b) {
-            return a * b;
-        }
-    }, DIV{
-        @Override
-        public double apply(double a, double b) {
-            if(b == 0) throw new ArithmeticException("0으로는 나눌 수 없습니다.");
-            return a / b;
-        }
-    };
-
-    public abstract double apply(double a, double b);
-
-    //Number 타입을 직접 받아서 처리
-    public double apply(Number a, Number b) {
-        return  apply(a.doubleValue(), b.doubleValue());
-    }
-}
-
 public class ArithmeticCalculator {
     // 계산 결과들을 모아서 저장하는 리스트 (외부에서 직접 접근 불가)
     private final List<Double> results = new ArrayList<>();
@@ -55,11 +25,7 @@ public class ArithmeticCalculator {
     public void searchResults(Double threshold) {
         results.stream()
                 .filter(n -> n > threshold)
-                .toList();
+                .forEach(System.out::println);
 
-    }
-
-    public List<Double> getResult() {
-        return List.copyOf(results);
     }
 }

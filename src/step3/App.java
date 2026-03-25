@@ -43,7 +43,7 @@ public class App {
 
             try {
                 // Calculator 클래스의 calculate 메서드로 계산 후 결과 저장
-                Double result = calculator.calculate(num1, num2, operatorType);
+                double result = calculator.calculate(num1, num2, operatorType);
                 // 계산 결과 출력
                 System.out.println("결과: " + result);
             } catch (ArithmeticException e) {
