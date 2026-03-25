@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e2c0d60b-a4d6-44c3-a0ab-858c59d7b455" name="변경" comment="g" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="step2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/calculator" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ChoiT815&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ChoiT815/calculator.git&quot;,
+    &quot;accountId&quot;: &quot;803b579b-d81a-4234-ad82-fb57e435d65e&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3BCr4qMEIhI14J2axxzWQLEeWBy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "step1",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/godi5/OneDrive/바탕 화면/com.example.calculator",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.App.executor": "Run"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\godi5\OneDrive\바탕 화면\com.example.calculator\src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.32098.37" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="e2c0d60b-a4d6-44c3-a0ab-858c59d7b455" name="변경" comment="" />
+      <created>1774003706165</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774003706165</updated>
+      <workItem from="1774003710367" duration="908000" />
+      <workItem from="1774228987268" duration="281000" />
+      <workItem from="1774244613806" duration="5782000" />
+      <workItem from="1774263783549" duration="28000" />
+      <workItem from="1774263855507" duration="821000" />
+      <workItem from="1774264691089" duration="3389000" />
+      <workItem from="1774273834198" duration="518000" />
+      <workItem from="1774274448014" duration="391000" />
+      <workItem from="1774274984622" duration="1000" />
+      <workItem from="1774275148706" duration="2925000" />
+      <workItem from="1774316374640" duration="23000" />
+      <workItem from="1774316728832" duration="84000" />
+      <workItem from="1774316859959" duration="1524000" />
+      <workItem from="1774328625511" duration="913000" />
+      <workItem from="1774330374238" duration="108000" />
+      <workItem from="1774330588765" duration="11000" />
+      <workItem from="1774331175889" duration="650000" />
+      <workItem from="1774332577963" duration="1565000" />
+      <workItem from="1774346886330" duration="3511000" />
+      <workItem from="1774352304136" duration="1509000" />
+      <workItem from="1774358113486" duration="2000" />
+      <workItem from="1774358257198" duration="1688000" />
+      <workItem from="1774397190521" duration="2000" />
+      <workItem from="1774397269122" duration="2000" />
+      <workItem from="1774397853026" duration="2000" />
+      <workItem from="1774404236224" duration="9247000" />
+      <workItem from="1774425574731" duration="53000" />
+      <workItem from="1774425712462" duration="6000" />
+      <workItem from="1774425726254" duration="221000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

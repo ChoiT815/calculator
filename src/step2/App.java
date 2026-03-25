@@ -3,9 +3,10 @@ package step2;
 import java.util.Scanner;
 
 
-
 public class App {
-    static void main() {
+    static void main(String[] args) {
+
+    {
 
         // Calculator 객체 생성 (계산 기능을 사용하기 위해)
         Calculator calculator = new Calculator();
@@ -49,5 +50,6 @@ public class App {
             }
         }
 
+    }
     }
 }
