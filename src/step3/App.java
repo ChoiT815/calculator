@@ -5,6 +5,21 @@ import java.util.Scanner;
 
 
 public class App {
+
+    private static int readPositiveInt(Scanner scanner, String message) {
+        int value;
+
+        while (true) {
+            System.out.print(message);
+            value = scanner.nextInt();
+
+            if (value > 0) {
+                return value;
+            }
+            System.out.println("양의 정수만 입력할 수 있습니다. 다시 입력하세요.");
+        }
+    }
+
     static void main(String[] args) {
 
 
@@ -16,12 +31,10 @@ public class App {
         // exit 입력 전까지 계속 반복
         while(true) {
             // 첫 번째 숫자 입력받기
-            System.out.print("첫 번째 숫자를 입력하세요: ");
-            Double num1 = scanner.nextDouble();
+            int num1 = readPositiveInt(scanner, "첫 번째 숫자를 입력하세요: ");
 
             // 두 번째 숫자 입력받기
-            System.out.print("두 번째 숫자를 입력하세요: ");
-            Double num2 = scanner.nextDouble();
+            int num2 = readPositiveInt(scanner, "두 번째 숫자를 입력하세요: ");
 
             char opChar = ' ';  // 첫 번째 문자만 가져오기
             do {
@@ -29,7 +42,7 @@ public class App {
                 opChar = scanner.next().charAt(0);
 
                 if (opChar != '+' && opChar != '-' && opChar != '*' && opChar != '/') {
-                    System.out.println("잘못된 연산자입니다. 다시 입력해주세요!");
+                        System.out.println("잘못된 연산자입니다. 다시 입력해주세요!");
                 }
             } while (opChar != '+' && opChar != '-' && opChar != '*' && opChar != '/');
 
